@@ -74,11 +74,11 @@ os.system("git clone https://github.com/ros-industrial/kuka_experimental.git")
 
 
 
-### Start position and Orientation can be given to loadURDF and the follwoing functions are used to create the data
+Start position and Orientation can be given to loadURDF and the follwoing functions are used to create the data
 
 The PyBullet API uses quaternions to represent orientations. Since quaternions are not very intuitive, there are two APIs to convert between quaternions and Euler angles.
 
-###### getQuaternionFromEuler() and getEulerFromQuaternion()
+#### getQuaternionFromEuler() and getEulerFromQuaternion()
 
 
 ```python
